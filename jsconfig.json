@@ -1,0 +1,7 @@
+{
+    "include": [
+        "./node_modules/cypress/types",
+        "cypress/**/*.js",
+        "cypress/integration/**/*.feature"
+    ]
+}

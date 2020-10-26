@@ -1,0 +1,21 @@
+{
+  "name": "cypress-practices",
+  "version": "1.0.0",
+  "description": "To try cypress code snippets",
+  "main": "./cypress/integration/index.js",
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^2.5.2"
+  },
+  "devDependencies": {
+    "cypress": "^4.9.0",
+    "cypress-xpath": "^1.6.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bharat Gupta",
+  "license": "ISC"
+}
